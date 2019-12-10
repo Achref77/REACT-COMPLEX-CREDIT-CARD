@@ -1,0 +1,55 @@
+.ListCard {
+  border-radius: 35px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASQAAACtCAMAAAAu7/J6AAAABlBMVEUdYowcYYtN4t9+AAAATklEQVR4nO3OMQEAAAgDoNm/tO8aeAgJSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaHMdAAAAAAAAAAAAAAAAAIBPFv3aAAIYs4S7AAAAAElFTkSuQmCC");
+  margin: 100px;
+  margin-left: 100px;
+  width: 550px;
+  height: 360px;
+  margin: 10px 40px;
+  padding-left: 20px;
+  list-style-type:none; 
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.logoCart{
+  position:absolute;
+  width: 20%;
+  right: 24px;
+  bottom: 45px;
+}
+.puceCart{
+  position:absolute;
+  left: 24px;
+  top: 80px;
+}
+.name{
+  position:absolute;
+  color: white;
+  left: 24px;
+  bottom: 45px;
+}
+.date{
+  position:absolute;
+  color: white;
+  right: 114px;
+  bottom: 85px;
+}
+
+.pcode{
+  position:absolute;
+  left: 24px;
+  bottom: 40%;
+  font-family: 'Odibee Sans', cursive;
+  color: rgb(231, 231, 183); 
+  font-size: 20px; 
+}
+.code{
+  background-color: rgba(255, 255, 0, 0.219);
+}
+.titreVisa{
+  color: white; 
+ font-size: 30px;
+ padding-top: 14px; 
+ margin-left: 50%;  
+}
