@@ -1,6 +1,5 @@
 import React from "react";
 import Log from "../components/logo.png";
-import Puce from "../components/puce.png";
 class Card extends React.Component {
   state = {
     Name: "",
@@ -58,27 +57,14 @@ class Card extends React.Component {
       <div>
         <div>
           <input
-            class="ground"
-            id="name"
-            type="text"
-            onChange={this.verifzoneText}
-            name="Name"
-            value={this.state.Name}
-          ></input>
+            class="ground"id="name"type="text"onChange={this.verifzoneText}name="Name"value={this.state.Name}></input>
           <div>
             {this.state.ErrorName && (
               <span style={{ color: "red" }}>please enter a valid Name</span>
             )}
           </div>
           <input
-            class="ground"
-            type="text"
-            id="code"
-            onChange={this.verifpasword}
-            name="password"
-            maxlength="17"
-            required
-          ></input>
+            class="ground"type="text"id="code"onChange={this.verifpasword}name="password"maxlength="17"required></input>
           <div>
             {this.state.ErrorCode && (
               <span style={{ color: "red" }}>please enter a valid code</span>
